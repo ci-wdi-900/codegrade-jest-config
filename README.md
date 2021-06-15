@@ -1,0 +1,1 @@
+# codegrade-jest-config
