@@ -22,7 +22,8 @@ How to create a simple, auto-tested CodeGrade assignment using Jest.
 12. Set Per-student setup script to `mv $FIXTURES/*.js $STUDENT`
 13. Add a Level
     * Make it a Unit Test
+    * Set 'Unit Test Framework' to `Custom`
+    * Set 'Program to test' to `cg-jest run ${STUDENT}main.test.js`
     * Link it to the Rubric category we made
-    * The testing command should be `cg-jest run ${STUDENT}main.test.js`
 14. Config is done but **IMPORTANT**: don't forget to start the tests up at the top!
 15. Done!
