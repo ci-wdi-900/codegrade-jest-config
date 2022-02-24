@@ -25,5 +25,11 @@ How to create a simple, auto-tested CodeGrade assignment using Jest.
     * Set 'Unit Test Framework' to `Custom`
     * Set 'Program to test' to `cg-jest run ${STUDENT}main.test.js`
     * Link it to the Rubric category we made
+    * Give it a weight of 100
+    * Name it Jesting Testing
 14. Config is done but **IMPORTANT**: don't forget to start the tests up at the top!
-15. Done!
+15. Go to the General tab
+16. Go to "Upload Submission" at the bottom right, and check the box that says "Test Submission"
+17. Using a completed version of the assignment, upload main.js
+18. Go back to the AutoTest Tab. You should see the results for Test Student. If it's 100/100, it worked!
+19. Done!
